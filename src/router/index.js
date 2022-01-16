@@ -34,6 +34,11 @@ export default new Router({
             path: '/xizhimen',
             name: 'test',
             component: (resolve) => require(['@/pages/city'], resolve)
+        },
+        {
+            path: '/chart',
+            name: 'chart',
+            component: (resolve) => require(['@/pages/chart'], resolve)
         }
     ]
 })
