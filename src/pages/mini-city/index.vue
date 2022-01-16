@@ -1,13 +1,13 @@
 <template>
     <div class="container">
-        <div class="info">
+        <!-- <div class="info">
             <a class="title" href="https://github.com/luosijie/threejs-examples" target="_blank">
                 Mini City
             </a>
             <a class="author" href="https://luosijie.github.io/" target="_blank">
                 Created By Jesse Luo
             </a>
-        </div>
+        </div> -->
         <canvas/>
     </div>
 </template>
