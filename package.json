@@ -17,6 +17,7 @@
   "dependencies": {
     "d3-geo": "^1.11.9",
     "echarts": "^5.2.2",
+    "socket.io-client": "^4.5.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
