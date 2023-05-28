@@ -39,6 +39,11 @@ export default new Router({
             path: '/chart',
             name: 'chart',
             component: (resolve) => require(['@/pages/chart'], resolve)
+        },
+        {
+            path: '/park',
+            name: 'park',
+            component: (resolve) => require(['@/pages/park'], resolve)
         }
     ]
 })

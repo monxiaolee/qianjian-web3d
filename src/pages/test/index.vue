@@ -99,13 +99,13 @@ export default {
         socket.on('error', (err) => {
             console.log('socket 错误', err);
         });
-    // this.init();
-    // this.control();
-    // this.setCamera();
-    // buildAuxSystem(this.scene);
-    // buildLightSystem(this.scene);
-    // this.addGeometry();
-    // this.loop();
+        // this.init();
+        // this.control();
+        // this.setCamera();
+        // buildAuxSystem(this.scene);
+        // buildLightSystem(this.scene);
+        // this.addGeometry();
+        // this.loop();
     }
 };
 </script>

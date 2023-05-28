@@ -1,3 +1,4 @@
+/* eslint-disable */
 var scene, camera
 var renderer
 var width, width
@@ -54,7 +55,7 @@ function buildMovingCars() {
         [30, -145, 1],
         [-145, -60, 1.5]
     ]
-    carsPosition.forEach(function(elem) {
+    carsPosition.forEach(function (elem) {
         var car = new Car()
         var x = elem[0],
             z = elem[1],
@@ -73,7 +74,7 @@ function buildStaticCars() {
         [-32, 82, 1.5],
         [84, 82, 1.5]
     ]
-    carsPosition.forEach(function(elem) {
+    carsPosition.forEach(function (elem) {
         var car = new Car()
         var x = elem[0],
             z = elem[1],
@@ -190,7 +191,7 @@ function buildbuilding() {
             [-12.5, 7.5, 1],
         ]
 
-        lampsPosition.forEach(function(elem) {
+        lampsPosition.forEach(function (elem) {
             var x = elem[0] * 10,
                 z = elem[1] * 10,
                 r = elem[2]
@@ -298,7 +299,7 @@ function buildbuilding() {
             [110, 70],
             [110, 90],
         ]
-        treesPosition.forEach(function(elem) {
+        treesPosition.forEach(function (elem) {
             var x = elem[0],
                 y = 1,
                 z = elem[1]
@@ -653,7 +654,7 @@ function carMoving(car) {
 
 function loop() {
     // stats.update()
-    cars.forEach(function(car) {
+    cars.forEach(function (car) {
         carMoving(car)
     })
     renderer.render(scene, camera)
@@ -661,7 +662,7 @@ function loop() {
 }
 
 function onWindowResize() {
-    window.addEventListener('resize', function() {
+    window.addEventListener('resize', function () {
         width = window.innerWidth
         height = window.innerHeight
 
