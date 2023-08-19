@@ -49,6 +49,11 @@ export default new Router({
             path: '/unityWeb',
             name: 'unityWeb',
             component: (resolve) => require(['@/pages/testUnityWeb'], resolve)
+        },
+        {
+            path: '/scene01',
+            name: 'scene01',
+            component: (resolve) => require(['@/pages/scene01'], resolve)
         }
     ]
 })
