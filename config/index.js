@@ -51,8 +51,8 @@ module.exports = {
         // Paths
         assetsRoot: path.resolve(__dirname, '../docs'),
         assetsSubDirectory: 'static',
-        // assetsPublicPath: '/',
-        assetsPublicPath: '',
+        assetsPublicPath: '/',  // 为什么换成这样打包就有图片了呢？难道这是相对路径
+        // assetsPublicPath: '',
 
         /**
          * Source Maps

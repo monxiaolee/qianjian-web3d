@@ -32,7 +32,7 @@ export default new Router({
         },
         {
             path: '/xizhimen',
-            name: 'test',
+            name: 'xizhimen',
             component: (resolve) => require(['@/pages/city'], resolve)
         },
         {
@@ -51,9 +51,9 @@ export default new Router({
             component: (resolve) => require(['@/pages/testUnityWeb'], resolve)
         },
         {
-            path: '/scene01',
-            name: 'scene01',
-            component: (resolve) => require(['@/pages/scene01'], resolve)
+            path: '/testUE',
+            name: 'testUE',
+            component: (resolve) => require(['@/pages/testUE'], resolve)
         }
     ]
 })
